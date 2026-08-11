@@ -569,3 +569,79 @@ footer a {
     }
 
 }
+
+#preorder-selector {
+
+    margin-top: 2rem;
+
+    padding: 1.5rem;
+
+    background-color: #FFF8F0;
+
+    border: 2px solid #D88C5A;
+
+    border-radius: 8px;
+
+}
+
+#preorder-selector select,
+
+#preorder-selector button {
+
+    display: block;
+
+    width: 100%;
+
+    max-width: 500px;
+
+    margin-top: 0.75rem;
+
+    padding: 0.75rem;
+
+    font: inherit;
+
+}
+
+#preorder-selector button {
+
+    background-color: #6B3E26;
+
+    color: #FFFFFF;
+
+    border: none;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+}
+
+#preorder-selector button:hover,
+
+#preorder-selector button:focus {
+
+    background-color: #D88C5A;
+
+}
+
+#selection-message {
+
+    margin-top: 1rem;
+
+    font-weight: bold;
+
+    color: #6B3E26;
+
+}
+
+.error-message {
+
+    display: block;
+
+    margin-top: 0.25rem;
+
+    margin-bottom: 0.75rem;
+
+    font-weight: bold;
+
+    color: #8B0000;
